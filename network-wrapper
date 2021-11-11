@@ -24,7 +24,7 @@ fi
 GUESTNAME=$2
 IPADDR=$3
 MACADDR=$4
-RUN_FILE=/var/run/network-wrapper
+RUN_FILE=/var/.network-wrapper.dat
 
 # Get the human readable name of the container from container_id
 # This will be used to track assigned MACs, so re-creating or re-starting container will get same ip address
